@@ -13,7 +13,6 @@ std::tuple<bool,float,float> solveTrionym(float a,float b,float c){
         r1=(-b+sqrt(d))/(2*a);
         r1=(-b-sqrt(d))/(2*a);
     }
-
     return std::make_tuple(solutionFound,r1,r2);
 }
 
@@ -29,10 +28,12 @@ int main()
     std::cin>>b;
     std::cout<<"c=";
     std::cin>>c;
-    std::tuple<bool,float,float> solution = solveTrionym(a,b,c);
-    bool found = std::get<0>(solution);
-    float r1 = std::get<1>(solution);
-    float r2 = std::get<2>(solution);
+    //faster with auto
+    auto [found,r1,r2] = solveTrionym(a,b,c);    
+    //std::tuple<bool,float,float> solution = solveTrionym(a,b,c);
+    //bool found = std::get<0>(solution);
+    //float r1 = std::get<1>(solution);
+    //float r2 = std::get<2>(solution);
     if (found)
         std::cout<<" Solutions:\nr1="<<r1<<"\nr2="<<r2<<"\n"<<std::flush;
     else
