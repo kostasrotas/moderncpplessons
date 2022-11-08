@@ -7,6 +7,9 @@ Modern CPP examples
 
 Examples:
 
+3.Lambda functions
+ functions.cpp                       Usage of lamda functions, std:function<...> and std::bind
+
 4.Containers
  vector.cpp                          Basic operations of std::vector<...> (append,insert,erase, modify)
  list.cpp                            Basic operations of std::list<...>
