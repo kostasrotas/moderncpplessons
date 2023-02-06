@@ -20,8 +20,8 @@ Examples:
  * sharedpointer.cpp                   Use of std::shared_ptr<...> with std::vector<..>
  
 7.Parallelism and Concurrency
- * tex.cpp                           How to use std::thread and std::mutex
- * ture.cpp                          Use std::future with std::promise
+ * mutex.cpp                           How to use std::thread and std::mutex
+ * future.cpp                          Use std::future with std::promise
  * conditionalvariable.cpp             std::conditional_variable
  * atomic.cpp                          std::atomic<...>
  
