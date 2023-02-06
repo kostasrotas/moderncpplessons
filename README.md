@@ -8,22 +8,22 @@ Modern CPP examples
 Examples:
 
 3.Lambda functions
- functions.cpp                       Usage of lamda functions, std:function<...> and std::bind
+ * functions.cpp                       Usage of lamda functions, std:function<...> and std::bind
 
 4.Containers
- vector.cpp                          Basic operations of std::vector<...> (append,insert,erase, modify)
- list.cpp                            Basic operations of std::list<...>
- map.cpp                             Basic operations of std::unordered_map<...> and std::map<...>
- tuple.cpp                           Example of std::tuple
+ * vector.cpp                          Basic operations of std::vector<...> (append,insert,erase, modify)
+ * list.cpp                            Basic operations of std::list<...>
+ * map.cpp                             Basic operations of std::unordered_map<...> and std::map<...>
+ * tuple.cpp                           Example of std::tuple
  
 5.Smart Pointers
- sharedpointer.cpp                   Use of std::shared_ptr<...> with std::vector<..>
+ * sharedpointer.cpp                   Use of std::shared_ptr<...> with std::vector<..>
  
 7.Parallelism and Concurrency
- mutex.cpp                           How to use std::thread and std::mutex 
- future.cpp                          Use std::future with std::promise
- conditionalvariable.cpp             std::conditional_variable
- atomic.cpp                          std::atomic<...>
+ * tex.cpp                           How to use std::thread and std::mutex
+ * ture.cpp                          Use std::future with std::promise
+ * conditionalvariable.cpp             std::conditional_variable
+ * atomic.cpp                          std::atomic<...>
  
  
  
